@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="LeviathanJS/App.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+        <entry key="LeviathanJS/Resources/ColorResourceDictionary.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+        <entry key="LeviathanJS/Resources/StyleResources.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+        <entry key="LeviathanJS/Styles/StyleResources.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+        <entry key="LeviathanJS/Styles/TextEditor.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+        <entry key="LeviathanJS/Views/MainView.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+        <entry key="LeviathanJS/Views/MainWindow.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+        <entry key="LeviathanJS/Views/ScriptInput.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+        <entry key="LeviathanJS/Views/ScriptInputView.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+        <entry key="LeviathanJS/Views/ScriptOutput.axaml" value="LeviathanJS.Browser/LeviathanJS.Browser.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

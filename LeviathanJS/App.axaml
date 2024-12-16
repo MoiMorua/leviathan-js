@@ -1,0 +1,26 @@
+<Application
+    RequestedThemeVariant="Default"
+    x:Class="LeviathanJS.App"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:local="using:LeviathanJS"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--  "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options.  -->
+
+    <Application.DataTemplates>
+        <local:ViewLocator />
+    </Application.DataTemplates>
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <MergeResourceInclude Source="/Resources/StyleResources.axaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+    <Application.Styles>
+        <StyleInclude Source="avares://AvaloniaEdit/Themes/Fluent/AvaloniaEdit.xaml" />
+        <StyleInclude Source="avares://LeviathanJS/Styles/TextEditor.axaml" />
+        <FluentTheme />
+    </Application.Styles>
+</Application>

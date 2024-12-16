@@ -1,0 +1,36 @@
+<UserControl
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d"
+    x:Class="LeviathanJS.Views.MainView"
+    x:DataType="vm:MainViewModel"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:views="clr-namespace:LeviathanJS.Views"
+    xmlns:vm="clr-namespace:LeviathanJS.ViewModels"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.DataContext>
+        <vm:MainViewModel />
+    </Design.DataContext>
+    <Grid HorizontalAlignment="Stretch" Margin="5,40,5,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MinWidth="300" Width="*" />
+            <ColumnDefinition Width="12" />
+            <ColumnDefinition Width="300" />
+        </Grid.ColumnDefinitions>
+        <views:ScriptInputView
+            Grid.Column="0"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Center" />
+        <GridSplitter
+            Grid.Column="1"
+            HorizontalAlignment="Stretch"
+            ResizeDirection="Columns" />
+        <views:ScriptOutput
+            Grid.Column="2"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Width="" />
+    </Grid>
+</UserControl>

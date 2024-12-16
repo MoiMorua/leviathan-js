@@ -1,0 +1,10 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--  Add Resources Here  -->
+    <Color x:Key="EditorBackgroundColor">#FF2D2D30</Color>
+    <Color x:Key="EditorForegroundColor">#FFFFFF</Color>
+
+    <FontFamily x:Key="EditorFontFamily">Cascadia Code,Consolas,Menlo,Monospace</FontFamily>
+
+    <x:Double x:Key="EditorFontSize">10</x:Double>
+
+</ResourceDictionary>
